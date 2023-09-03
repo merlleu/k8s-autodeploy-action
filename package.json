@@ -1,0 +1,9 @@
+{
+  "name": "k8s-autodeploy-action",
+  "version": "1.0.0",
+  "description": "GitHub Action to redeploy a service using an HTTP request",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
+  }
+}
