@@ -1,4 +1,4 @@
-name: Deploy Action
+name: K8S-Autodeploy Action
 description: Makes an HTTP request to redeploy a service
 inputs:
   host:
