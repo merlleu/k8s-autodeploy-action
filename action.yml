@@ -1,0 +1,18 @@
+name: Deploy Action
+description: Makes an HTTP request to redeploy a service
+inputs:
+  host:
+    description: 'The hostname of the service to redeploy'
+    required: true
+  token:
+    description: 'The authorization token for the redeploy API'
+    required: true
+  image:
+    description: 'The name of the image to deploy'
+    required: true
+outputs:
+  services:
+    description: 'The list of services that were redeployed'
+runs:
+  using: 'node12'
+  main: 'index.js'
